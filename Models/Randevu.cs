@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BarberShop.Models
 {
+
     public class Randevu
     {
         [Key]

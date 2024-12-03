@@ -18,7 +18,12 @@ namespace BarberShop.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
+        {
+            return View();
+        }
+
+        public IActionResult About()
         {
             return View();
         }

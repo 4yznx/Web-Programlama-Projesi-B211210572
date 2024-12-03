@@ -24,9 +24,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Sifre)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SifreDogrulama)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -44,9 +41,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Sifre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SifreDogrulama)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

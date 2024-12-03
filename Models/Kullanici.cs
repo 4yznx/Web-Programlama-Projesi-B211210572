@@ -28,12 +28,5 @@ namespace BarberShop.Models
         [DataType(DataType.Password)]
         [Display(Name = "Şifre")]
         public string Sifre { get; set; }
-
-        [Required(ErrorMessage = "Şifre doğrulama alanı zorunludur.")]
-        [StringLength(100, ErrorMessage = "Şifre doğrulama 8-100 karakter arasında olmalıdır.", MinimumLength = 8)]
-        [DataType(DataType.Password)]
-        [Compare("Sifre", ErrorMessage = "Şifreler eşleşmiyor.")]
-        [Display(Name = "Şifre Doğrulama")]
-        public string SifreDogrulama { get; set; }
     }
 }

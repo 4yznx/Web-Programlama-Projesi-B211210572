@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BarberShop.Data;
 using BarberShop.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BarberShop.Controllers
 {
+    [Authorize]
     public class RandevuController : Controller
     {
         private readonly BarberDbContext _context;

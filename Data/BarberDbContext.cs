@@ -1,11 +1,11 @@
 ﻿using BarberShop.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BarberShop.Data
 {
     public class BarberDbContext : DbContext
-    { 
-
+    {
         public BarberDbContext(DbContextOptions<BarberDbContext> options) : base(options) { }
 
         public DbSet<Calisan> Calisanlar { get; set; }
