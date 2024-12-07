@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D450dBXOPQ1Y1hSMFHRghb5DinTeFtdywJAJn2bPT04=",
+  "Hash": "XpAuHyf26Zc7Gwl+Nk+SwGCtjs2kZB3K4ZgCSue2Iec=",
   "Source": "BarberShop",
   "BasePath": "_content/BarberShop",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yazan\\OneDrive\\Desktop\\ملفاتي\\Visual Studio\\BarberShop\\BarberShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BarberShop.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\yazan\\OneDrive\\Desktop\\ملفاتي\\Visual Studio\\BarberShop\\BarberShop\\wwwroot\\css\\account.css",
+      "SourceId": "BarberShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yazan\\OneDrive\\Desktop\\ملفاتي\\Visual Studio\\BarberShop\\BarberShop\\wwwroot\\",
+      "BasePath": "_content/BarberShop",
+      "RelativePath": "css/account.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\account.css"
     },
     {
       "Identity": "C:\\Users\\yazan\\OneDrive\\Desktop\\ملفاتي\\Visual Studio\\BarberShop\\BarberShop\\wwwroot\\css\\site.css",
